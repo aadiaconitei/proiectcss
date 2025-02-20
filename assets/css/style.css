@@ -1,9 +1,11 @@
 :root{
   --colorPrim:#9201ea;
+  --bgAlb: #ffffff;
 }
 
 .dark{
   --colorPrim:#529eef;
+  --bgAlb: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -39,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: var(--bgAlb);
 }
 
 #preloader:before {
